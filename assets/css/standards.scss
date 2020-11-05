@@ -1,0 +1,33 @@
+h1, h2, h3 {
+    font-family: $text-alt, bold;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.6em;
+}
+
+p, main, section, div, a, ul, ol, li, article, section {
+    font-family: $text-main;
+}
+
+
+li {
+    padding: 5px 10px;
+}
+.container {
+    padding:20px 40px;
+
+    // background-color: ;
+}
+
+header {
+    background-color: #3a4ac92e;
+    box-shadow: #ff000087 0px 3px 5px 1px;
+}
+

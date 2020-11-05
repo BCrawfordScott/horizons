@@ -1,0 +1,17 @@
+.container.landing-hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: right;
+}
+
+.landing-sidekick {
+    display: flex;
+    justify-content: space-around;
+    h3 {
+        font-family: $text-main;
+        font-style: italic;
+    }
+}

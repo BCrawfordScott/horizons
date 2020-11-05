@@ -1,5 +1,17 @@
 /* This file is for your main application css. */
-@import "./phoenix.css";
+$text-main: 'Montserrat', sans-serif;
+$text-alt: 'Montserrat Alternates', sans-serif;
+
+
+@import "./reset.scss";
+@import "./landing.scss";
+@import "./standards.scss";
+@import "./nav.scss";
+// @import "./phoenix.css";
+
+
+
+
 
 /* Alerts and form errors */
 .alert {
