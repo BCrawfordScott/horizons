@@ -30,4 +30,53 @@ header {
     background-color: #3a4ac92e;
     box-shadow: #ff000087 0px 3px 5px 1px;
 }
+button {
+    background-color: $l-blue;
+    box-shadow: darkgray 0px 3px 5px 1px;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    font-family: $text-alt, bold;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
 
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 54%;
+}
+
+label {
+    padding-top: 10px;
+}
+
+.authform {
+    margin: 30px auto;
+    width: 500px;
+    padding: 50px 50px;
+    border-radius: 10px;
+    box-shadow: darkgrey 2px 2px 3px 1px;
+
+    
+}
+
+.symbol {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50px;
+
+    .red {
+        background-color: $red;
+        height: 25px;
+        width: 25px;
+    }
+
+    .blue {
+        background-color: $blue;
+        height: 25px;
+        width: 25px;
+    }
+}
